@@ -1,4 +1,4 @@
-/*.collaborator{
+ /*.collaborator{
 	padding: 40px 0px;
 	background-color: #fff;
 }
@@ -60,14 +60,22 @@
     margin: 0 3%;
 }
 .card_img{
-	height: 77px;
-    width: 95%;
+	max-height: 77px;
+    max-width: 95%;
+}
+.card_img:nth-child(4){
+
 }
 .collab{
 	text-align: center;
 }
+.collabc{
+	left: 7%;
+    position: relative;    padding-bottom: 83px;
+}
 @media all and (max-width: 600px){
 	.collabc{
+	left: 0%;
 	display: inherit;
 	    text-align: -webkit-center;
 }

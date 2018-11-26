@@ -16,6 +16,12 @@ body {
     background-position: center;
     
 }
+@media all and (max-width:425px) {
+  .home_bg{
+    background-size: contain;
+    background-position: top;
+  }
+}
 .about_bg{
   background-image: url(/src/image/about_us_bg.jpg);
        background-repeat: no-repeat;

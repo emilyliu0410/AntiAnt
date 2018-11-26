@@ -12,8 +12,7 @@ $count = 1;
 		</h2>
 		<div class="container-fluid collab">
 		
-				<div class="row collabc" style="left: 7%;
-    position: relative;    padding-bottom: 83px;">
+				<div class="row collabc" >
 					<?php foreach($collaborator_list['link'] as $key => $value): ?>
 					<div class="col-2">
 						
